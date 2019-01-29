@@ -1,0 +1,13 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.notifications-container {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background: wheat;
+    max-height: 40rem;
+    overflow-y: auto;
+}

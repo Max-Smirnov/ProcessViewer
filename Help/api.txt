@@ -1,0 +1,25 @@
+BankingOnTestApi
+
+Api
+
+Processes
+GET
+/api/Processes
+
+Models
+IProcessModel{
+	cpuUsagePercent	number($double)
+	cpuUsageTime	string
+	id	integer($int32)
+	name	string
+	priority	integer($int32)
+	ramUsage	integer($int64)
+	runningTime	string
+}
+
+Notifications
+
+default: ws://localhost:33077/ws
+
+Models
+NotificationMessage string
